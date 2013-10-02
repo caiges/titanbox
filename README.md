@@ -25,6 +25,10 @@ This will download the VirtualBox image and provision Titan onto it.
 A script for starting Titan is installed to "/usr/local/bin/start_titan" and should be in the path of the vagrant user:
 
 	start_titan
+	
+Verify REST API service is accessible:
+
+	curl http://localhost:8182/graphs
 
 ## Misc
 
