@@ -26,7 +26,7 @@ A script for starting Titan is installed to "/usr/local/bin/start_titan" and sho
 
 	start_titan
 	
-Verify REST API service is accessible:
+Verify REST API service is accessible on your host (not within the VM):
 
 	curl http://localhost:8182/graphs
 
